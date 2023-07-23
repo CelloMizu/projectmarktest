@@ -1,0 +1,125 @@
+
+@font-face {
+  font-family: "ProximaSansRegular";
+  src: url("//db.onlinewebfonts.com/t/f1448054f14757d284c064b271c00cc6.eot");
+  src: url("//db.onlinewebfonts.com/t/f1448054f14757d284c064b271c00cc6.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/f1448054f14757d284c064b271c00cc6.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/f1448054f14757d284c064b271c00cc6.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/f1448054f14757d284c064b271c00cc6.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/f1448054f14757d284c064b271c00cc6.svg#ProximaNovaSoftW03-Regular") format("svg");
+}
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+      src:        url('roboto-v29-latin-regular.woff2') format('woff2'),
+       url('roboto-v29-latin-regular.woff') format('woff');
+}
+
+
+
+body {
+  font-family: ProximaSansRegular;
+  color: $primary;
+}
+
+.searchBar {
+  input {
+    padding-top: 15px;
+  }
+  }
+
+.q-layout__section--marginal {
+  color: $primary!important;
+  background: $secondary!important;
+}
+
+.title h2 {
+    color: $primary;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.title h5 {
+    color: $primary;
+    font-size: 1.3rem;
+    //text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.user-name {
+    color:  $primary;
+    font-size: 1.3rem;
+}
+
+.bg-primary {
+    background: $secondary;
+}
+
+.bg-menu-logo {
+    background: $secondary;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #808080;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.q-field-icon {
+    color: #808080;
+}
+
+// Proposal
+.header-collapsible {
+    color: $primary;
+}
+
+.header-collapsible i {
+    color: $primary;
+}
+
+.proposal-data {
+    color: $textGray;
+}
+
+.title-proposal {
+    font-weight: 600;
+}
+
+.proposal-table th, tr {
+    color: $textGray;
+}
+
+.q-item.active, .q-item.router-link-active, .q-item:focus .q-item:hover {
+    border-left 3px solid $primary!important;
+    color $primary!important;
+}
+
+.q-list-highlight > .q-item:hover, .q-item-highlight:hover, .q-list-link > .q-item:hover, .q-item-link:hover {
+    background: rgba(128,128,128, 1);
+    color: $primary!important;
+}
+
+.sidebar-links {
+    padding-top: 0;
+}
+
+.title-pricing {
+    font-weight: 600 !important;
+}
+
+@media screen and (max-width: $breakpoint-xs) {
+    .title h2 {
+        font-size: 1.5rem;
+    }
+
+    .title h5 {
+        font-size: 1rem;
+    }
+}
